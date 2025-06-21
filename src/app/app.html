@@ -1,0 +1,25 @@
+<style>
+  ul,li{
+    text-decoration: none;
+    display: inline-block;
+    padding-inline-end: 10px;
+  }
+</style>
+
+<div class="p-3">
+  <nav class="nav">
+    <ul>
+      <li>
+          <a class="btn btn-outline-primary" routerLink="/home">
+              Home
+          </a>
+      </li>
+      <li>
+        <a class="btn btn-outline-primary" routerLink="/products">
+              Products
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
