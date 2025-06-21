@@ -24,7 +24,7 @@ This is the **Angular frontend** application for the Products management system,
 angular-products-ex-frontend/
 ├── src/
 │   ├── app/
-│   │   ├── home/                # Home module
+│   │   ├── home/                # Home Component
 │   │   ├── products/            # Product list/view logic
 │   │   ├── services/            # HTTP service to communicate with backend
 │   │   ├── app.routes.ts        # Application routes
