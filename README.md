@@ -69,7 +69,7 @@ Visit: [http://localhost:4200](http://localhost:4200)
 Make sure the backend Spring Boot server is running at:
 
 ```
-http://localhost:8080/products
+http://localhost:8089/products
 ```
 
 You can configure the API base URL in the `product.service.ts` file:
