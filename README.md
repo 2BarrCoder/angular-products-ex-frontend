@@ -1,8 +1,4 @@
-Here is a suggested `README.md` for the **Angular frontend** project of your full-stack app, complementing the Spring Boot backend:
 
----
-
-```markdown
 # 🛍️ Angular Products Frontend
 
 This is the **Angular frontend** application for the Products management system, built to interface with the Spring Boot backend API.
@@ -25,7 +21,6 @@ This is the **Angular frontend** application for the Products management system,
 ## 📁 Project Structure
 
 ```
-
 angular-products-ex-frontend/
 ├── src/
 │   ├── app/
@@ -40,8 +35,7 @@ angular-products-ex-frontend/
 ├── package.json
 ├── angular.json
 └── tsconfig.json
-
-````
+```
 
 ---
 
@@ -52,7 +46,7 @@ angular-products-ex-frontend/
 ```bash
 git clone https://github.com/2BarrCoder/angular-products-ex-frontend.git
 cd angular-products-ex-frontend
-````
+```
 
 ### 2. Install Dependencies
 
@@ -87,10 +81,3 @@ private baseUrl = 'http://localhost:8089/products';
 ---
 
 > Made with 💙 by [2BarrCoder](https://github.com/2BarrCoder)
-
-```
-
----
-
-Let me know if you'd like me to push this directly into a file or include setup notes for deployment (e.g., Vercel, Netlify, Docker).
-```
