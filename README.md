@@ -14,7 +14,7 @@ This is the **Angular frontend** application for the Products management system,
 - Product listing and management
 - Integrated service layer for API communication
 - Modular structure with routing
-- Styled with CSS
+- Styled with CSS Bootstrap
 
 ---
 
