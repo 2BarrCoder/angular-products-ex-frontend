@@ -1,0 +1,55 @@
+<div class="card-body p-3">
+  @if (products)
+  {
+    <table class="table" >
+      <thead>
+      <th>
+        ID
+      </th>
+      <th>
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        is Selected
+      </th>
+      <th>
+        Actions
+      </th>
+      </thead>
+      <tbody>
+        @for ( p of products; track p){
+          <tr>
+            <td>
+              {{p.id}}
+            </td>
+            <td>
+              {{p.name}}
+            </td>
+            <td>
+              {{p.price}}
+            </td>
+            <td>
+              @if (p.selected){
+                  <i class="bi bi-check2-circle" style="color: green" ></i>
+              } @else {
+                <i class="bi bi-circle" style="color: red"></i>
+              }
+            </td>
+            <td>
+              <button
+                (click)="handleDelete(p)"
+                class="btn btn-outline-danger" >
+                <i class="bi-trash" ></i>
+                Delete
+              </button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+
+</div>
